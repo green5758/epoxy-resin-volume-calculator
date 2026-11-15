@@ -421,8 +421,14 @@ def get_cumulative_product_reviews():
                 ("Home Bar Top Seal & Flood Coat (2.0 Gal 1:1)", 2.0, "1:1 Bar Top", "1/8\" + Edge", "8-Foot L-Bar")
             ]
             p_name, gal_v, ratio_s, thick_s, dim_s = pour_configs[extra_num % len(pour_configs)]
+            
+            # PERBAIKAN ERROR: Memisahkan proses replace dari f-string
+            gal_str = str(gal_v).replace('.','-')
+            thick_str = thick_s.split()[0].replace('.','-').replace('"','in').replace('/','-')
+            slug_extra = f"epoxy-pour-{gal_str}gal-{thick_str}-review-{extra_num}"
+
             proc_tuple = (
-                f"epoxy-pour-{str(gal_v).replace('.','-')}gal-{thick_s.split()[0].replace('.','-').replace('\"','in').replace('/','-')}-review-{extra_num}",
+                slug_extra,
                 f"{gal_v} Gallon ({ratio_s}, {thick_s}) Epoxy Kit for {p_name} Review (#{extra_num})",
                 f"{gal_v}-Gal {ratio_s} Epoxy System",
                 "4.8",
