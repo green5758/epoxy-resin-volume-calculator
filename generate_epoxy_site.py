@@ -332,7 +332,13 @@ BASE_REVIEWS = [
         "body_paragraphs": [
             "When calculating garage floor coating coverage on our calculator, the #1 mistake homeowners make is trusting the box's maximum coverage number on rough, broom-finished or pitted concrete. A standard 2-car garage (20'×22' = 440 sq. ft.) with porous concrete will soak up an extra 15%–25% of resin—which is why buying the 2.5-Car Kit (or three 1-Car pouches) is essential so you don't run dry near the garage door.",
             "Preparation is 90% of a permanent floor bond: degrease oil spots, acid-etch (or diamond-grind) the slab until it feels like 120-grit sandpaper, and let the concrete dry completely for 24 hours before rolling.",
-            "Because you burst and shake one dual-chamber pouch at a time, you can roll each 10'×10' quadrant leisurely, broadcast the decorative vinyl flakes, and enjoy a showroom garage floor that lasts for years."
+            "Because you burst and shake one dual-chamber pouch at a time, you can roll each 10'×10' quadrant leisurely, broadcast the decorative vinyl flakes, and enjoy a showroom garage floor 
+            
+            
+            
+            
+            
+            that lasts for years."
         ]
     }
 ]
@@ -877,6 +883,7 @@ def render_calculator_page(page_data, is_home=False):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
+    <meta name="google-site-verification" content="pgvlG0f03ZrRZzbgDSXRhr6tsSfseFOhXCN6Yv_j5b8" />
     <meta name="description" content="{description}">
     <link rel="canonical" href="{canonical_url}">
     <meta name="robots" content="index, follow">
