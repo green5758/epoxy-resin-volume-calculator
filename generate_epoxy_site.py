@@ -243,7 +243,7 @@ BASE_REVIEWS = [
             "Requires a 48-to-72 hour undisturbed cure in a 68°F–75°F room (always seal raw live-edge wood with a thin seal coat first)"
         ],
         "body_paragraphs": [
-            "When calculating a live-edge river table pour on our epoxy volume calculator, a 72-inch long by 10-inch wide river channel at 2.0 inches deep equals $1,440\text{ cubic inches} \div 231 = 6.23\text{ US Gallons}$ of mixed resin. Pouring 6 gallons of inferior resin at once is terrifying because excessive exothermic heat can warp the wood slabs and crack the center of the river. Superclear Liquid Glass 2.0 is formulated specifically for high-mass pours.",
+            "When calculating a live-edge river table pour on our epoxy volume calculator, a 72-inch long by 10-inch wide river channel at 2.0 inches deep equals $1,440\\text{ cubic inches} \\div 231 = 6.23\\text{ US Gallons}$ of mixed resin. Pouring 6 gallons of inferior resin at once is terrifying because excessive exothermic heat can warp the wood slabs and crack the center of the river. Superclear Liquid Glass 2.0 is formulated specifically for high-mass pours.",
             "In our 2.5-inch deep black-walnut test pour tinted with 25 grams per gallon of Charcoal Black mica powder, peak exothermic temperature stayed below 122°F—preventing any shrinkage pull-away from the live edges.",
             "After 72 hours, we surfaced the slab with a CNC router sled and wet-sanded from 220 to 3,000 grit before buffing with polishing compound, achieving a flawless mirror finish."
         ]
@@ -332,13 +332,7 @@ BASE_REVIEWS = [
         "body_paragraphs": [
             "When calculating garage floor coating coverage on our calculator, the #1 mistake homeowners make is trusting the box's maximum coverage number on rough, broom-finished or pitted concrete. A standard 2-car garage (20'×22' = 440 sq. ft.) with porous concrete will soak up an extra 15%–25% of resin—which is why buying the 2.5-Car Kit (or three 1-Car pouches) is essential so you don't run dry near the garage door.",
             "Preparation is 90% of a permanent floor bond: degrease oil spots, acid-etch (or diamond-grind) the slab until it feels like 120-grit sandpaper, and let the concrete dry completely for 24 hours before rolling.",
-            "Because you burst and shake one dual-chamber pouch at a time, you can roll each 10'×10' quadrant leisurely, broadcast the decorative vinyl flakes, and enjoy a showroom garage floor 
-            
-            
-            
-            
-            
-            that lasts for years."
+            "Because you burst and shake one dual-chamber pouch at a time, you can roll each 10'×10' quadrant leisurely, broadcast the decorative vinyl flakes, and enjoy a showroom garage floor that lasts for years."
         ]
     }
 ]
